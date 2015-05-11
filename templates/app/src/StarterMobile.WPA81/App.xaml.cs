@@ -40,7 +40,7 @@ namespace StarterMobile.WPA81
             this.Suspending += this.OnSuspending;
             autoSuspendHelper = new AutoSuspendHelper(this);
 
-            RxApp.SuspensionHost.CreateNewAppState = () => new MainPageViewModel();
+            RxApp.SuspensionHost.CreateNewAppState = () => new AppBootstrapper();
             RxApp.SuspensionHost.SetupDefaultSuspendResume();
         }
 

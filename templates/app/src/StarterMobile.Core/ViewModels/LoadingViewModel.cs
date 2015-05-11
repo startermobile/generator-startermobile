@@ -15,12 +15,12 @@ namespace StarterMobile.Core.ViewModels
         {
             HostScreen = hostScreen ?? Locator.Current.GetService<IScreen>();
 
-            IsAuthenticated = ReactiveCommand.CreateAsyncTask();
+            //IsAuthenticated = ReactiveCommand.CreateAsyncTask(null, null);
             
-            IsAuthenticated.Subscribe(x =>
-            {
-                HostScreen.Router.NavigateAndReset.Execute(new LoginViewModel());
-            });
+            //IsAuthenticated.Subscribe(x =>
+            //{
+            //    HostScreen.Router.NavigateAndReset.Execute(new LoginViewModel());
+            //});
         }
 
         [IgnoreDataMember]
