@@ -6,9 +6,9 @@
     <SharedGUID>{CB1E000B-81EF-463B-8AB6-0B8F2A5C1747}</SharedGUID>
   </PropertyGroup>
   <PropertyGroup Label="Configuration">
-    <Import_RootNamespace>StarterMobile.UITest</Import_RootNamespace>
+    <Import_RootNamespace>StarterMobile.UITests</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="$(MSBuildThisFileDirectory)MyClass.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Constants.cs" />
   </ItemGroup>
 </Project>

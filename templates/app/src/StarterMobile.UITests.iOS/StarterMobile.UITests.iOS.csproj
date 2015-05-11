@@ -5,7 +5,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{6B4832A7-0B4E-48E4-99B8-46FE6832742C}</ProjectGuid>
     <OutputType>Library</OutputType>
-    <RootNamespace>StarterMobile.UITest.iOS</RootNamespace>
+    <RootNamespace>StarterMobile.UITests.iOS</RootNamespace>
     <AssemblyName>StarterMobile.UITest.iOS</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
   </PropertyGroup>
@@ -46,7 +46,6 @@
     <Compile Include="MyClass.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <Import Project="..\StarterMobile.UITest\StarterMobile.UITest.projitems" Label="Shared" Condition="Exists('..\StarterMobile.UITest\StarterMobile.UITest.projitems')" />
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\xunit.core.2.0.0\build\portable-net45+win+wpa81+wp80+monotouch+monoandroid+Xamarin.iOS\xunit.core.props" Condition="Exists('..\packages\xunit.core.2.0.0\build\portable-net45+win+wpa81+wp80+monotouch+monoandroid+Xamarin.iOS\xunit.core.props')" />
   <ItemGroup>

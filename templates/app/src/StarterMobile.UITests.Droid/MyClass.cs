@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace StarterMobile.UITest.Droid
+namespace StarterMobile.UITests.Droid
 {
     public class MyClass
     {

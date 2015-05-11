@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace StarterMobile.UITest
+namespace StarterMobile.UITests.iOS
 {
     public class MyClass
     {

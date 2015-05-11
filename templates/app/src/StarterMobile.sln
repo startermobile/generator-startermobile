@@ -15,11 +15,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{454803A6
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StarterMobile.Core.Tests", "StarterMobile.Core.Tests\StarterMobile.Core.Tests.csproj", "{7A40E897-ED58-4F8B-BEB3-4AC8339992D8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StarterMobile.UITest.iOS", "StarterMobile.UITest.iOS\StarterMobile.UITest.iOS.csproj", "{6B4832A7-0B4E-48E4-99B8-46FE6832742C}"
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "StarterMobile.UITests", "StarterMobile.UITests\StarterMobile.UITests.shproj", "{CB1E000B-81EF-463B-8AB6-0B8F2A5C1747}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StarterMobile.UITest.Droid", "StarterMobile.UITest.Droid\StarterMobile.UITest.Droid.csproj", "{7887E357-444F-4E50-8F64-2F62944B8249}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StarterMobile.UITests.iOS", "StarterMobile.UITests.iOS\StarterMobile.UITests.iOS.csproj", "{6B4832A7-0B4E-48E4-99B8-46FE6832742C}"
 EndProject
-Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "StarterMobile.UITest", "StarterMobile.UITest\StarterMobile.UITest.shproj", "{CB1E000B-81EF-463B-8AB6-0B8F2A5C1747}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StarterMobile.UITests.Droid", "StarterMobile.UITests.Droid\StarterMobile.UITests.Droid.csproj", "{7887E357-444F-4E50-8F64-2F62944B8249}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -372,9 +372,9 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{7A40E897-ED58-4F8B-BEB3-4AC8339992D8} = {454803A6-D975-4F49-BB12-D145F01E7AD2}
+		{CB1E000B-81EF-463B-8AB6-0B8F2A5C1747} = {454803A6-D975-4F49-BB12-D145F01E7AD2}
 		{6B4832A7-0B4E-48E4-99B8-46FE6832742C} = {454803A6-D975-4F49-BB12-D145F01E7AD2}
 		{7887E357-444F-4E50-8F64-2F62944B8249} = {454803A6-D975-4F49-BB12-D145F01E7AD2}
-		{CB1E000B-81EF-463B-8AB6-0B8F2A5C1747} = {454803A6-D975-4F49-BB12-D145F01E7AD2}
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

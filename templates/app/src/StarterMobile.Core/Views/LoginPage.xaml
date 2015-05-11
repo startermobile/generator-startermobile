@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage 
+        Padding="32,48,32,0"
+        xmlns="http://xamarin.com/schemas/2014/forms" 
+        xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+        x:Class="StarterMobile.Core.Views.LoginPage">
+
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical" Padding="0,20,0,0">
+            <StackLayout Orientation="Vertical">
+                <Entry x:Name="Username"  x:StyleId="Username" Placeholder="Username" />
+            </StackLayout>
+
+            <StackLayout Orientation="Vertical" Padding="0,16,0,0">
+                <Entry x:Name="Password"  x:StyleId="Password" IsPassword="true" Placeholder="Password"/>
+            </StackLayout>
+
+            <Button x:Name="Login"  x:StyleId="Login"  Text="Sign In" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>	
