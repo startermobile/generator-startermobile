@@ -12,6 +12,7 @@ using Akavache;
 using Akavache.Sqlite3;
 using System.IO;
 using Xamarin;
+using StarterMobile.Core.ViewModels;
 
 namespace StarterMobile.Core
 {
@@ -40,7 +41,7 @@ namespace StarterMobile.Core
                 return Observable.Return(RecoveryOptionResult.CancelOperation);
             });
 
-//            Router.Navigate.Execute(new HomeViewModel());
+            Router.Navigate.Execute(new LoadingViewModel());
         }
 
         private void OnUnhandledException()
@@ -58,7 +59,7 @@ namespace StarterMobile.Core
             {
                 this.Log().Info("Registering ViewModels...");
 
-                //            Locator.CurrentMutable.Register(() => new HomePage(), typeof(IViewFor<HomeViewModel>));
+//                Locator.CurrentMutable.Register(() => new HomePage(), typeof(IViewFor<HomeViewModel>));
 
                 this.Log().Info("ViewModels have been registered.");
             }

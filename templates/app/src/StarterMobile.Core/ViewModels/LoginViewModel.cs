@@ -10,7 +10,7 @@ namespace StarterMobile.Core.ViewModels
 {
 
     [DataContract]
-    public class LoginViewModel : ILoginViewModel, ReactiveObject
+    public class LoginViewModel : ReactiveObject, ILoginViewModel
     {
         [IgnoreDataMember] private string _password;
         [IgnoreDataMember] private string _username;
