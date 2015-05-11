@@ -33,7 +33,7 @@ namespace StarterMobile.Droid
 
             RxApp.SuspensionHost.SetupDefaultSuspendResume();
 
-            Locator.CurrentMutable.RegisterConstant(new TelephonyService(), typeof(ITelephonyService));
+            //Locator.CurrentMutable.RegisterConstant(new TelephonyService(), typeof(ITelephonyService));
         }
     }
 }
